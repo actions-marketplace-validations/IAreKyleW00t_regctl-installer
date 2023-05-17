@@ -22,7 +22,7 @@ inputs:
 runs:
   using: "composite"
   steps:
-    - uses: sigstore/cosign-installer@v3.0.1
+    - uses: sigstore/cosign-installer@v3.0.4
     - shell: bash
       run: |
         #!/bin/bash
